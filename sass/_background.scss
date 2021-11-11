@@ -1,13 +1,22 @@
 
+
+html {
+    overflow-y: hidden;
+}
+
+
 body {
     background-color: #16162A;
     overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
     
 }
 
 #dots_top { 
-    margin-right: -2vw;
+    margin-left: 2vw;
     overflow: hidden;
+    position: relative;
     margin-top: -30vw;
     z-index: 2;
 }
@@ -21,16 +30,24 @@ body {
 }
 
 #dots_bottom {
-    padding-bottom: 20vw;
-    overflow: hidden;
-    margin: 0vw -2.5vw 0vw -2.5vw;
+    position: relative;
+ top: -60vw;
+    padding: 20vw;
+    right: 25vw;
+    pointer-events: none;
+   
+    
+   
 
 }
 
 #dots_bottom img {
-    position: relative;
-    top: 20vw;
-    width: 100vw;
+    position: fixed;
+    width: 120vw;
+    height: 60vw;
+    top: 160vw;
+    pointer-events: none;
+    
 }
 
 

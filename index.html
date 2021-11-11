@@ -18,7 +18,7 @@
     <form>
 
         <div id="who_are_you" class="section_0">
-            <h1>Let's get to know you!</h1>
+            <h1 class="lgtky">Let's get to know you!</h1>
             <h2>Who are you?</h2>
             <div id="who_are_you_options">
                 <label for="firstname">First name:</label>
@@ -37,7 +37,7 @@
             
         </div>
         <div class="section_1 hide">
-            <h1>Age and location</h1>
+            <h1 class="ageandlocation">Age and location</h1>
             <h2>How old are you and where are you from?</h2>
             <label for="dob">Date of Birth</label>
             <div id="grid">
@@ -69,8 +69,8 @@
           
         </div>
         <div class="section_2 hide">
-            <h1>Create your account</h1>
-            <h2>Choose your login information</h2>
+            <h1 class="create">Create your account</h1>
+            <h2 class="choose">Choose your login information</h2>
             <label for="email" class="email">E-mail</label>
             <input type="email" id="email" name="email">
             <label for="psw" class="psw">Password</label>
@@ -78,10 +78,10 @@
             
         </div>
         <div class="section_3 hide">
-            <h1>Styles of gaming</h1>
+            <h1 class="sog">Styles of gaming</h1>
             <h2>Which style of gaming do you play?</h2>
-            <fieldset id="gaming_styles_grid">
-                <legend id="gaming_styles"></legend>
+            <fieldset class="gaming_styles_grid">
+                <legend class="gaming_styles"></legend>
                 <label for="FPS">FPS</label>
                 <input type="checkbox" id="FPS" name="game_style" value="FPS">
                 <label for="MMORPG">MMORPG</label>
@@ -114,8 +114,10 @@
     
         </div>
         <div class="section_4 hide">
-            <fieldset>
-                <legend>Games</legend>
+            <h1 class="games">Games</h1>
+            <h2 class="wgdyp">What games do you play?</h2>
+            <fieldset class="gameslist">
+                <legend class="games2"></legend>
                 <input type="checkbox" id="CSGO" name="game" value="CSGO">
                 <label for="CSGO">CS:GO</label>
                 <input type="checkbox" id="Tekken" name="game" value="Tekken">
@@ -271,7 +273,7 @@
         <img src="/img/mobile_dots_bottom.png" alt="">
     </div>
 
-    <script type="module" src="index.js"></script>
+    <script type="module" src="/index.js"></script>
 </body>
 
 </html>
